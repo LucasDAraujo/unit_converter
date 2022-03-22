@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: rgb(50, 50, 122);
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #fff;
+    margin: 0;
+}
+p {
+    color: #d2d2d2;
+}
+#id-value,
+#id-convResults {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+/* -------------------------------------------------------------------------- */
+/*                               id-value                                     */
+/* -------------------------------------------------------------------------- */
+#id-value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+}
+#id-value__title {
+    padding-top: 6%;
+}
+#id-value > input {
+    
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 99%;
+    color: transparent;
+    cursor: default;
+    color: #fff;
+    font-weight: 800;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+/* -------------------------------------------------------------------------- */
+/*                               id-convResults                               */
+/* -------------------------------------------------------------------------- */
+#id-convResults ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+#id-convResults ul > li {
+    padding-top: 2rem;
+}
+
+#id-convResults ul > li > h1 {
+    font-size: 18px;
+}
+
+#id-convResults ul > li > p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #cdcdcd;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #id-convResults ul > li > h1 {
+        font-size: 22px;
+    }
+    #id-convResults ul > li > p {
+        font-size: 18px;
+        font-weight: 600;
+        color: #cdcdcd;
+    }
+  
+}
+
+
+
